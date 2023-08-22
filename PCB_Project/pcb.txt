@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : C:\Users\User\Repos\TP1\PCB_Project\pcb.PcbDoc
+Date         : 22/8/2023
+Time         : 16:35:18
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100,00%
+    Connections, 72
+    Connections routed, 72
+    Connections remaining, 0
+count : 4
