@@ -39,8 +39,8 @@ Sf = ss(A, B, C, D)
 %% Chequeo transferencia
 disp('Chequeo transferencia')
 [num, den] = ss2tf(A, B, C, D);
-G2 = tf(num, den);
-zpk(G2)
+G = tf(num, den);
+zpk(G)
 
 %% Chequeo controlabilidad
 MC = [B, A*B];
@@ -92,7 +92,7 @@ disp('*******************************')
 % Grafico
 disp('Cargando gráfico...')
 hold on;
-t = 0:0.05:5;
+t = 0:0.01:5;
 step(Gcl, t)
 ylabel('Respuesta del modelo al escalón')
 grid
