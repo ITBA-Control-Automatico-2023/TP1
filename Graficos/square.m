@@ -44,7 +44,7 @@ plot(tsim, ysim, 'g');
 plot(tmed+1, ymed, 'm')
 
 xlim([0, max(tmed) + 1])
-title("Respuesta a cuadrada de 2Vpp y 0.5Hz")
+title("Respuesta a cuadrada de 4Vpp y 0.5Hz")
 ylabel("Tensión (V)")
 xlabel("Tiempo (s)")
 grid
